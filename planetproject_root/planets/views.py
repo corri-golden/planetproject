@@ -21,5 +21,4 @@ def get_by_id(request, id):
     #     surface_water=int(response['surface_water'])
     #     )          
     return JsonResponse(response, status=200)
-    # planet = Planet.object.get(id=id)
-    # return planet
+    
