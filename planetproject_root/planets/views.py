@@ -4,6 +4,7 @@ from django.shortcuts import render
 
 # from planets.models import Planet
 from planet_api.api import get_planet_by_id
+from planet_api.api import get_films_by_id
 
 
 
@@ -21,4 +22,8 @@ def get_by_id(request, id):
     #     surface_water=int(response['surface_water'])
     #     )          
     return JsonResponse(response, status=200)
+
+
+
+
     
